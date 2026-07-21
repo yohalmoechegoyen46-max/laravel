@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/practica', function () {
     return view('practica');
 });
+
+
+Route::get('/practica', function () {
+    return view('practica2');
+});
